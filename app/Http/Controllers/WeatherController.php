@@ -9,7 +9,6 @@ class WeatherController extends Controller
 {
     public function getWeather(Request $request, $city) {
 
-        //$city = $request->input('city');
         $apiKey ='d3aac015da3c23279538b21f80bb2432';
 
         $client = new \GuzzleHttp\Client();
